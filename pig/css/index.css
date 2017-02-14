@@ -1,0 +1,33 @@
+@charset "utf-8";
+/* CSS Document */
+
+body{margin:0; padding:0;}
+
+
+@keyframes run_pig{
+	0%{transform:translateY(0);}
+	50%{transform:translateY(-50px);}
+	100%{transform:translateY(0);}
+}
+@-webkit-keyframes run_pig{
+	0%{-webkit-transform:translateY(0);transform:translateY(0);}
+	50%{-webkit-transform:translateY(-50px);transform:translateY(-50px);}
+	100%{-webkit-transform:translateY(0);transform:translateY(0);}
+}
+
+@keyframes run_shadow{
+	0%{padding:0;box-shadow:0 0 20px rgba(0,0,0,0.5);position:absolute;top:350px;left:28px; }
+	50%{padding:5px 20px;box-shadow:0 0 130px rgba(255,255,255,0.8) inset,0 0 130px rgba(255,255,255,0.8) inset;position:absolute;top:340px;left:8px; }
+	100%{padding:0;box-shadow:0 0 20px rgba(0,0,0,0.5);position:absolute;top:350px;left:28px; }
+}
+.face{width:321px;height:321px;margin:100px auto; background:#d2364e; border-radius:50%; position:relative; -webkit-animation:run_pig 2s infinite;animation:run_pig 2s infinite;}
+.left_ear{width:97px;height:144px;background:#8e1f30; border-radius:90% 10% 90% 10%; position:absolute;top:32px;left:-18px;}
+.right_ear{width:97px;height:144px;background:#8e1f30; border-radius:10% 90% 10% 90%; position:absolute;top:32px;right:-18px;}
+.left_eye_white{width:57px;height:114px;background:#fff;border-radius:70% 30% 70% 30%;position:absolute;top:79px;left:80px;}
+.right_eye_white{width:57px;height:114px;background:#fff;border-radius:30% 70% 30% 70%;position:absolute;top:79px;right:80px;}
+.left_eye_blank{width:32px;height:49px;background:#000;border-radius:50% 50% 50% 50%;position:absolute;top:94px;left:100px;}
+.right_eye_blank{width:32px;height:49px;background:#000;border-radius:50% 50% 50% 50%;position:absolute;top:94px;right:100px;}
+.nose{width:102px;height:68px;background:#ffa795;border-radius:45% 45% 45% 45%;position:absolute;top:189px;left:109px; box-shadow:0 -50px 80px 70px  rgba(255,169,152,0.5),0 15px 30px -10px rgba(0,0,0,0.5),0 0 50px 0 rgba(255,255,255,0.5) inset;}
+.left_nostril{width:10px;height:36px;background:#661128;border-radius:50% 50% 50% 50%;position:absolute;top:206px;left:142px;box-shadow:0 0 10px rgba(0,0,0,0.5);}
+.right_nostril{width:10px;height:36px;background:#661128;border-radius:50% 50% 50% 50%;position:absolute;top:206px;right:142px;box-shadow:0 0 10px rgba(0,0,0,0.5);}
+.shadow{width:270px;height:30px;background:#000;border-radius:50%;position:absolute;top:350px;left:28px; box-shadow:0 0 20px rgba(0,0,0,0.5);animation:run_shadow 2s infinite;}
