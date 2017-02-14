@@ -1,0 +1,42 @@
+@charset "utf-8";
+/* CSS Document */
+*{padding:0;margin:0;}  
+h3{font-size:16px;}
+h4{font-size:14px;}
+h5{font-size:12px;font-weight:normal}
+li{list-style-type:none;}
+dd,dt,dl,ul {list-style:none;margin:0px ;padding:0px;}
+img{vertical-align:top;border:0;}
+a{ text-decoration:none;color:#000;outline:none;}
+a:hover{ text-decoration:none; outline:none; }
+.fl{float:left;}
+.fr{float:right;}
+input{}
+a:focus{outline: none;-moz-outline-style: none; }
+select{outline:none;}
+.blue{color:#186db6}
+em,i{font-style:normal;}
+body{ margin:0px; padding:0px; font-size:12px; font-family:"微软雅黑";  }
+/*size*/
+.ftsize14{font-size:14px;}.ftsize12{font-size:12px;}.ftsize20{font-size:20px;}
+/*bg*/
+.bgnone{background:none;}
+/*color*/
+.red{color:#c00;}#ccc{color:#ccc;}#666{color:#666}.green{color:#3C0}.fff{color:#fff;}
+/*float*/
+.clear{clear:both;}.fl{float:left;}.fr{float:right;}
+/*margin*/
+.mgauto{margin:0px auto;}.margin010{margin:0px 10px;}.margin100{margin:10px 0px }.margin10{margin:10px;}
+.mgt20{margin-top:20px}.mgt15{margin-top:15px}.mgt10{margin-top:10px}.mgt5{margin-top:5px}
+.mgb20{margin-bottom:20px}.mgb15{margin-bottom:15px}.mgb10{margin-bottom:10px}.mgb5{margin-bottom:5px}
+.mgr13{margin-right:13px;}.mgl30{margin-left:30px}.mgr30{margin-right:30px}.mgr20{margin-right:20px}.mgr15{margin-right:15px}.mgr10{margin-right:10px}.mgr5{margin-right:5px}
+.mgl20{margin-left:20px}.mgt15{margin-left:15px}.mgl10{margin-left:10px}.mgl5{margin-left:5px}
+/*padding*/
+.pdauto{margin:0px auto;}.padding010{margin:0px 10px;}.padding100{margin:10px 0px }.padding10{margin:10px;}
+.pdt20{margin-top:20px}.pdt15{margin-top:15px}.pdt10{margin-top:10px}.pdt5{margin-top:5px}
+.pdb20{margin-bottom:20px}.pdb15{margin-bottom:15px}.pdb10{margin-bottom:10px}.pdb5{margin-bottom:5px}
+.pdr20{margin-right:20px}.pdt15{margin-right:15px}.pdr10{margin-right:10px}.pdr5{margin-right:5px}
+.pdl20{margin-left:20px}.pdl15{margin-left:15px}.pdl10{margin-left:10px}.pdl5{margin-left:5px}
+.bold{font-weight:bold;}
+.center {text-align:center;} 
+
